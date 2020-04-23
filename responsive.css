@@ -1,0 +1,46 @@
+@media (max-width: 1000px) {
+
+.body{
+  width: 100vw;
+ }
+
+.recomend{
+  width: 100vw;
+ }
+
+  .lesson{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .quiz{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 670px) {
+  /* .lessonのwidthを100%に指定してください */
+  .body{
+    width: 100vw;
+    text-align: center;
+   }
+
+   .lesson{
+     width: 100%;
+     margin-bottom: 50px;
+    text-align: center;
+   }
+
+   .quiz{
+    width: 100%;
+    text-align: center;
+  }
+
+  /* <footer>の中身を中央寄せにしてください。 */
+  footer{
+    text-align: center;
+  }
+
+}
